@@ -10,3 +10,16 @@ const images = [
     {image: 'img/05.webp', title: "Marvel's Avengers", text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',}
 ];
 
+console.log(images);
+
+/* creo costanti per ogni elemento html da gestire successivamente. gli elementi li seleziono con il querySelector in modo da non andare a modificare html perché non sempre in futuro sarà possibile averne accesso */
+
+const items = document.querySelector('.items');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+const div = document.querySelector('.item');
+
+console.log(items); console.log(prev); console.log(next); console.log(document);
+
+// utilizzo il metodo degli array: forEach per ciclare attraverso l'array images
+
