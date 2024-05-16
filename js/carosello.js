@@ -21,5 +21,9 @@ const div = document.querySelector('.item');
 
 console.log(items); console.log(prev); console.log(next); console.log(document);
 
-// utilizzo il metodo degli array: forEach per ciclare attraverso l'array images
+// utilizzo il metodo degli array: forEach per ciclare attraverso l'array images: images.forEach()
+
+// images.forEach()
+
+
 
